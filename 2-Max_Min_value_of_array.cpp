@@ -3,8 +3,8 @@ using namespace std;
 
 void fn(int a[],int n)
 {
-    int mx=INT_MIN;
-    int mn=INT_MAX;
+    int mx = INT_MIN;
+    int mn = INT_MAX;
     for(int i=0;i<n;i++)
     {
         if(a[i]>=mx)
