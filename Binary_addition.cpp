@@ -1,4 +1,6 @@
-string addBinary(string a, string b) {
+class Solution {
+public:
+      string addBinary(string a, string b) {
         string r;
         int i=a.length()-1 , j=b.length()-1;
         int c=0;
@@ -16,3 +18,4 @@ string addBinary(string a, string b) {
         reverse(r.begin(), r.end());
         return r;
     }
+};
