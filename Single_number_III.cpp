@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
-        vector<int> ans;
+        vector<int>ans;
         int xo=0;  //xor of array
         for(int i=0;i<nums.size();i++){
             xo=xo^nums[i];
