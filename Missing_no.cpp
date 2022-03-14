@@ -8,7 +8,7 @@ public:
                 ans=i;
                 break;
             }
-            ans=i;
+            ans = i;
         }
         return ans;
     }
