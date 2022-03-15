@@ -23,7 +23,7 @@ void fn(int a[],int n)
 int main()
 {
     int a[]={1,22,3,-8,5};
-    int n=sizeof(a)/sizeof(a[0]);
+    int n = sizeof(a)/sizeof(a[0]);
     fn(a,n);
     return 0;
 }
